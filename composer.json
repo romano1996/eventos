@@ -19,5 +19,10 @@
     "psr-4": {
       "Tests\\": "tests/"
     }
+  },
+  "autoload": {
+    "psr-4": {
+      "Domain\\": "src/"
+    }
   }
 }
