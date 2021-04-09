@@ -1,10 +1,13 @@
 <?php
 
 /**
- * Eventos ----
+ *  Eventos - php event driven framework.
  *
- * Author: Romano Schoonheim <romano@romanoschoonheim.nl>
+ *  @author Romano Schoonheim <romano@romanoschoonheim.nl>
+ *  @website https://www.eventos-php.com/
  */
+
+use Core\Eventos;
 
 $autoloadPath =  __DIR__ . '/../vendor/autoload.php';
 if (!file_exists($autoloadPath)) {
@@ -14,6 +17,10 @@ if (!file_exists($autoloadPath)) {
 }
 
 require_once __DIR__ . '/../vendor/autoload.php';
+
+$app = new Eventos();
+
+
 
 
 
