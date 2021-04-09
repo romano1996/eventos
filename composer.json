@@ -1,3 +1,15 @@
 {
-
+  "name": "romano1996/eventos",
+  "type": "project",
+  "description": "The PHP event sourcing framework.",
+  "keywords": [
+    "php",
+    "sourcing",
+    "events",
+    "framework"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.0"
+  }
 }
