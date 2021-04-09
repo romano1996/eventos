@@ -22,6 +22,8 @@
   },
   "autoload": {
     "psr-4": {
+      "Core\\": "core/",
+      "Domain\\": "domain/",
       "Modules\\": "modules/"
     }
   }
