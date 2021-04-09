@@ -1,5 +1,5 @@
-Eventos
----------------------------------------
+# Eventos
+
 
 Eventos is an event driven framework for PHP.  It is work in progress. The documentation / readme is far from done.
 
