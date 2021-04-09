@@ -26,4 +26,12 @@ class Eventos
 
         $this->modules[] = $module;
     }
+
+    /**
+     * Start application boot sequence.
+     */
+    public function boot(): void
+    {
+
+    }
 }

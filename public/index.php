@@ -20,9 +20,9 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 $app = new Eventos();
 
+// TODO: Remove main module.
+$app->registerModuleProvider(
+    \Modules\Main\Providers\MainModuleProvider::class
+);
 
-
-
-
-
-
+$app->boot();
